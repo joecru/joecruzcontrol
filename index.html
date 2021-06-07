@@ -19,7 +19,7 @@
 
 				<!-- Header -->
 					<header id="header" class="alt">
-						<h1><a href="index.html">joe cruz</a></h1>
+						<h1><a href="index.html">Joe Cruz</a></h1>
 						<nav id="nav">
 							<ul>
 								<li class="special">
@@ -27,10 +27,10 @@
 									<div id="menu">
 										<ul>
 											<li><a href="index.html">Home</a></li>
-											<li><a href="generic.html">Generic</a></li>
-											<li><a href="elements.html">Elements</a></li>
-											<li><a href="#">Sign Up</a></li>
-											<li><a href="#">Log In</a></li>
+											<li><a href="generic.html">About Me</a></li>
+											<li><a href="elements.html">Contact</a></li>
+											<li><a href="#">Apparell</a></li>
+											<li><a href="#">Maxpreps</a></li>
 										</ul>
 									</div>
 								</li>
@@ -42,18 +42,55 @@
 					<section id="banner">
 						<div class="inner">
 							<h2>Joe Cruz</h2>
-							<p>Another fine responsive<br />
-							site template freebie<br />
-							crafted by <a href="http://html5up.net">HTML5 UP</a>.</p>
-							<ul class="actions special">
-								<li><a href="#" class="button primary">Activate</a></li>
-							</ul>
+							
+							<p>Always Strive<br />
+							Always Prosper 
+							<!-- site template freebie<br />
+							crafted by <a href="http://html5up.net">HTML5 UP</a>. -->
+						</p>
+						<div id="muteYouTubeVideoPlayer"></div>
+						
+
+<script async src="https://www.youtube.com/iframe_api"></script>
+<script>
+ function onYouTubeIframeAPIReady() {
+  var player;
+  player = new YT.Player('muteYouTubeVideoPlayer', {
+    videoId: 'CDfO0xvq0jY', // YouTube Video ID
+    width: 560,               // Player width (in px)
+    height: 316,              // Player height (in px)
+    playerVars: {
+      autoplay: 1,        // Auto-play the video on load
+      controls: 1,        // Show pause/play buttons in player
+      showinfo: 0,        // Hide the video title
+      modestbranding: 1,  // Hide the Youtube Logo
+      loop: 1,            // Run the video in a loop
+      fs: 0,              // Hide the full screen button
+      cc_load_policy: 0, // Hide closed captions
+      iv_load_policy: 3,  // Hide the Video Annotations
+      autohide: 0         // Hide video controls when playing
+    },
+    events: {
+      onReady: function(e) {
+        e.target.mute();
+      }
+    }
+  });
+ }
+
+ // Written by @labnol
+</script>
+
+							<!-- <ul class="actions special">
+								
+								<li><a href="#one" class="button primary"></a></li>
+							</ul> -->
 						</div>
-						<a href="#one" class="more scrolly">Learn More</a>
+						<a href="#one" class="more scrolly">INFO</a>
 					</section>
 
 				<!-- One -->
-					<section id="one" class="wrapper style1 special">
+					<!-- <section id="one" class="wrapper style1 special">
 						<div class="inner">
 							<header class="major">
 								<h2>Arcu aliquet vel lobortis ata nisl<br />
@@ -67,15 +104,12 @@
 								<li><span class="icon solid fa-code major style3"><span class="label">Dolor</span></span></li>
 							</ul>
 						</div>
-					</section>
+					</section> -->
 
 				<!-- Two -->
-					<section id="two" class="wrapper alt style2">
+					<!-- <section id="two" class="wrapper alt style2">
 						<section class="spotlight">
 							<div class="image"><img src="images/pic01.jpg" alt="" /></div><div class="content">
-
-
-
 								<h2>Magna primis lobortis<br />
 								sed ullamcorper</h2>
 								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
@@ -95,10 +129,10 @@
 								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
 							</div>
 						</section>
-					</section>
+					</section> -->
 
 				<!-- Three -->
-					<section id="three" class="wrapper style3 special">
+					<!-- <section id="three" class="wrapper style3 special">
 						<div class="inner">
 							<header class="major">
 								<h2>Accumsan mus tortor nunc aliquet</h2>
@@ -132,18 +166,18 @@
 								</li>
 							</ul>
 						</div>
-					</section>
+					</section> -->
 
 				<!-- CTA -->
-					<section id="cta" class="wrapper style4">
+					<section id="one" class="wrapper style4">
 						<div class="inner">
 							<header>
-								<h2>Arcue ut vel commodo</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla.</p>
+								<h2>Put your team in Cruz Control</h2>
+								<!-- <p>Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla.</p> -->
 							</header>
 							<ul class="actions stacked">
-								<li><a href="#" class="button fit primary">Activate</a></li>
-								<li><a href="#" class="button fit">Learn More</a></li>
+								<li><a href="#" class="button fit primary">Contact</a></li>
+								<li><a href="#" class="button fit">Max Preps</a></li>
 							</ul>
 						</div>
 					</section>
